@@ -64,12 +64,6 @@ io.on('connection', (socket) => {
     });
 });
 
-// const port = process.env.PORT || 5000;
-// server.listen(port, () => console.log("Listening on port"+ port));
+const port = process.env.PORT || 5000;
+server.listen(port, () => console.log("Listening on port"+ port));
 
-// var port_number = server.listen(process.env.PORT || 5000);
-// app.listen(port_number);
-
-app.listen(process.env.PORT || 5000, function(){
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-  });
