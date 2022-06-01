@@ -61,10 +61,12 @@ io.on('connection', (socket) => {
         });
         delete userSocketMap[socket.id];
         socket.leave();
-        
+
     });
 });
 
 const port = process.env.PORT || 5000;
 server.listen(port, () => console.log("Listening on port"+ port));
 
+// var port_number = server.listen(process.env.PORT || 5000);
+// app.listen(port_number);
