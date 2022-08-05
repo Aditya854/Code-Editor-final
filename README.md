@@ -1,4 +1,4 @@
-##Some sinppets of UI
+## Some sinppets of UI
 
 1.1 <img src="https://user-images.githubusercontent.com/78819364/183141323-6585b94f-a4e1-4070-ae85-eed92fa1a475.png" width = "90%" height="80%">
 
